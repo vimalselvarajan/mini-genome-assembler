@@ -1,18 +1,16 @@
 # Mini Genome Assembler
 
+## Project Description
+
 An educational mini genome assembler for **CS 144 (Algorithms for Bioinformatics)** that identifies maximum suffix–prefix overlaps, builds unitigs, and reconstructs a genome from error-free reads.
 
----
+This project implements a simplified genome assembly pipeline using **exact string overlaps**. Given a set of error-free sequencing reads from the forward strand, the program:
 
-## Overview
+1. Identifies **maximum suffix–prefix overlaps** between reads using a **k-mer–based indexing strategy**
+2. Constructs **unitigs** by joining reads that are **mutual maximum-overlap neighbors**
+3. Assembles a **final genome sequence** by overlapping unitigs
 
-This project implements a simplified genome assembly pipeline using exact string overlaps. Given a set of error-free sequencing reads from the forward strand, the program:
-
-1. Identifies maximum suffix–prefix overlaps between reads using a k-mer–based indexing strategy
-2. Constructs unitigs by joining reads that are mutual maximum-overlap neighbors
-3. Assembles a final genome sequence by overlapping unitigs
-
-The goal of this project is to illustrate core algorithmic ideas behind Overlap Layout Consensus assembly.
+The goal of this project is to illustrate core algorithmic ideas behind **Overlap–Layout–Consensus (OLC)** assembly.
 
 ---
 
