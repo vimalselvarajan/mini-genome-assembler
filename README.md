@@ -74,8 +74,6 @@ python final_genome.py
 **Output:** `unitigs.fasta` / final genome FASTA  
 (Expected genome length: **7959 bp**)
 
----
-
 
 
 
