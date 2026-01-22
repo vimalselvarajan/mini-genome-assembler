@@ -26,6 +26,22 @@ Install dependencies:
 ```bash
 pip install biopython networkx
 ```
+---
+
+## Commands
+
+Find maximum suffix–prefix overlaps
+```bash
+python read_overlap_finder.py
+```
+Build unitigs
+```bash
+python assemble_unitigs.py
+```
+Assemble the final genome
+```bash
+python final_genome.py
+```
 
 ## Pipeline Structure
 
