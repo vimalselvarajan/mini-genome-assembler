@@ -16,6 +16,17 @@ The goal of this project is to illustrate core algorithmic ideas behind Overlap 
 
 ---
 
+## Requirements
+
+- Python 3.8+
+- BioPython
+- NetworkX
+
+Install dependencies:
+```bash
+pip install biopython networkx
+```
+
 ## Pipeline Structure
 
 ### Step 1: Maximum Suffix–Prefix Overlaps
@@ -49,13 +60,6 @@ The goal of this project is to illustrate core algorithmic ideas behind Overlap 
 
 ---
 
-## Requirements
 
-- Python 3.8+
-- BioPython
-- NetworkX
 
-Install dependencies:
-```bash
-pip install biopython networkx
 
