@@ -12,7 +12,7 @@ This project implements a simplified genome assembly pipeline using exact string
 2. Constructs unitigs by joining reads that are mutual maximum-overlap neighbors
 3. Assembles a final genome sequence by overlapping unitigs
 
-The goal of this project is to illustrate core algorithmic ideas behind overlap-based genome assembly.
+The goal of this project is to illustrate core algorithmic ideas behind Overlap Layout Consensus assembly.
 
 ---
 
