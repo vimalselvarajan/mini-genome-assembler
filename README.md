@@ -18,7 +18,7 @@ The goal of this project is to illustrate core algorithmic ideas behind Overlap 
 
 ## Pipeline Structure
 
-### Step 2: Maximum Suffix–Prefix Overlaps
+### Step 1: Maximum Suffix–Prefix Overlaps
 - For each read **A**, identify the read **B** with the **longest exact suffix–prefix overlap**
 - Overlaps must be **at least 40 nucleotides**
 - If the longest overlap is not unique, the read has no valid outgoing overlap
@@ -28,7 +28,7 @@ The goal of this project is to illustrate core algorithmic ideas behind Overlap 
 
 ---
 
-### Step 3: Unitig Construction
+### Step 2: Unitig Construction
 - Builds a directed overlap graph from the overlap file
 - Joins reads into **unitigs** when they are **mutual maximum-overlap neighbors**
 - Each read appears in exactly one unitig
@@ -38,7 +38,7 @@ The goal of this project is to illustrate core algorithmic ideas behind Overlap 
 
 ---
 
-### Step 4: Final Genome Assembly
+### Step 3: Final Genome Assembly
 - Converts unitigs into sequences
 - Determines the correct ordering by overlapping unitigs
 - Produces the final assembled genome in FASTA format
